@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.ezcomtrust.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://www.ezcomtrust.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/why-ransomware-targets-nursing-homes.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/hipaa-risk-assessment-survey.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/signs-facility-wifi-hurting-care.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/wifi-installation-optimization-multi-wing.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/ehr-downtime-plan.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/cost-of-we-have-a-guy-it.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/printer-copier-leases-managed-print.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/voip-phones-for-nurses.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/hipaa-compliant-efax.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/backup-disaster-recovery-321.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/security-cameras-resident-safety.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/low-voltage-cabling-foundation.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/mfa-without-staff-revolt.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/cyber-insurance-renewal-questionnaire.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/what-a-vcio-does.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/phishing-training-that-sticks.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/microsoft-365-long-term-care.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.ezcomtrust.com/blog/cut-telecom-utility-costs.html</loc><priority>0.7</priority></url>
 </urlset>
