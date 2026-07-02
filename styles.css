@@ -257,7 +257,7 @@ img{max-width:100%;display:block}
 .footer{background:var(--navy-2);color:#a3aecb;padding:60px 0 0}
 .footer__inner{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.1fr;gap:40px;padding-bottom:44px}
 .footer__logo{display:flex;align-items:center;gap:10px;margin-bottom:16px}
-.fl-mark{font-family:var(--ff-head);font-weight:800;font-size:1.35rem;color:#fff;background:var(--blue);width:42px;height:42px;display:flex;align-items:center;justify-content:center;border-radius:9px;letter-spacing:-.03em}
+.fl-mark{height:40px;width:auto;display:block;border-radius:7px}
 .fl-text{font-family:var(--ff-head);font-weight:800;font-size:1.2rem;color:#fff;letter-spacing:.02em}
 .footer__brand p{font-size:14.5px;line-height:1.6;margin-bottom:16px;max-width:320px}
 .footer__phone{font-family:var(--ff-head);font-weight:800;color:#fff;font-size:1.15rem}
