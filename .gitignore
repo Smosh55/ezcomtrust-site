@@ -1,0 +1,11 @@
+# Deploy artifact (regenerated on demand)
+ezcomtrust-deploy.zip
+
+# Local preview config
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
