@@ -168,10 +168,10 @@ img{max-width:100%;display:block}
 /* ---------- Partners / client logos ---------- */
 .partners{background:#fff;padding:52px 0 20px}
 .partners__label{text-align:center;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-bottom:24px}
-.partners__logos{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
-.plogo{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 14px;min-height:94px;transition:box-shadow .2s,border-color .2s}
+.partners__logos{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.plogo{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 12px;transition:box-shadow .2s,border-color .2s}
 .plogo:hover{box-shadow:var(--shadow-sm);border-color:var(--blue-100)}
-.plogo img{max-height:56px;max-width:100%;width:auto;object-fit:contain}
+.plogo img{width:100%;height:auto;display:block}
 @media (max-width:900px){.partners__logos{grid-template-columns:repeat(3,1fr)}}
 @media (max-width:520px){.partners__logos{grid-template-columns:repeat(2,1fr)}}
 
