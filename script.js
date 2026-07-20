@@ -73,12 +73,13 @@
   if (yr) yr.textContent = new Date().getFullYear();
 
   /* ---- Lead form handling ----
-     By default this shows a success message client-side.
-     To receive submissions by email, either:
-       1) Set FORM_ENDPOINT below to a Formspree/Basin/Web3Forms URL, OR
-       2) Replace with your own backend endpoint.
+     Submissions are delivered by Web3Forms (web3forms.com).
+     Paste your Web3Forms access key below to activate delivery.
+     While the key is empty the form runs in demo mode (success
+     message only, nothing is sent).
   ---------------------------------------------------------------- */
-  var FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/xxxxxxx'
+  var WEB3FORMS_KEY = ''; // paste your access key here, e.g. 'a1b2c3d4-....'
+  var FORM_ENDPOINT = WEB3FORMS_KEY ? 'https://api.web3forms.com/submit' : '';
   var form = document.getElementById('leadForm');
   var success = document.getElementById('formSuccess');
 
@@ -114,10 +115,14 @@
       if (FORM_ENDPOINT) {
         submitBtn.textContent = 'Sending…';
         submitBtn.disabled = true;
+        var data = new FormData(form);
+        data.append('access_key', WEB3FORMS_KEY);
+        data.append('subject', 'New Free Assessment Request — ezcomtrust.com');
+        data.append('from_name', 'EZ Comtrust Website');
         fetch(FORM_ENDPOINT, {
           method: 'POST',
           headers: { 'Accept': 'application/json' },
-          body: new FormData(form)
+          body: data
         }).then(function (res) {
           if (res.ok) showSuccess();
           else throw new Error('Bad response');
